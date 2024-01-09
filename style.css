@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(21, 156, 165);
+    position: relative;
+    background-image: linear-gradient(
+  55deg,
+  hsl(240deg 44% 64%) 0%,
+  hsl(274deg 48% 65%) 15%,
+  hsl(309deg 55% 66%) 27%,
+  hsl(330deg 99% 73%) 38%,
+  hsl(340deg 100% 73%) 49%,
+  hsl(358deg 100% 75%) 59%,
+  hsl(19deg 100% 70%) 69%,
+  hsl(35deg 100% 64%) 79%,
+  hsl(46deg 100% 57%) 89%,
+  hsl(55deg 100% 50%) 100%
+);
+    
+}
+.ball-1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(173, 228, 6);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: ball-1y 4s linear infinite alternate-reverse,
+     ball-1x 4s linear infinite alternate ;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@keyframes ball-1y {
+    from{
+        top: 50%;
+    }
+    to{
+        top: 85%;
+    }
+}
+
+@keyframes ball-1x{
+    from{
+        left: 0;
+    }
+    to{
+        left: 93%;
+    }
+}
+.ball-2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(201, 32, 9);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    animation: ball-2x 4s linear infinite alternate-reverse,
+     ball-2y 4s linear infinite alternate ;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@keyframes ball-2x {
+    from{
+        left: 0%;
+    }
+    to{
+        left: 93%;
+    }
+}
+
+@keyframes ball-2y{
+    from{
+        bottom: 0%;
+        /* top: 0%; */
+    }
+    to{
+        bottom: 93%;
+    }
+}
+.ball-3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(2, 34, 219);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    animation: ball-3x 3s linear infinite alternate-reverse,
+    ball-3y 3s linear infinite alternate ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@keyframes ball-3x {
+    from{
+        left: 0;
+    }
+    to{
+        left: 93%;
+    }
+}
+
+@keyframes ball-3y{
+    from{
+        top: 0%;
+    }
+    to{
+     top: 85%;
+    }
+}
+
+.ball-4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 10, 194);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    animation: ball-4x 3s linear infinite alternate-reverse,
+    ball-4y 3s linear infinite alternate ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@keyframes ball-4x {
+    from{
+        left: 0;
+    }
+    to{
+        left: 93%;
+    }
+}
+
+@keyframes ball-4y{
+    from{
+        bottom: 30%;
+    }
+    to{
+        bottom: 93%;
+    }
+}
+
+
